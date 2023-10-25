@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="vermelho">#BC2632</color>
+    <color name="vinho">#711E24</color>
+    <color name="caramelo">#EEA84E</color>
+    <color name="carmin">#D6292B</color>
+    <color name="cinza">#7A7A7A</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 </resources>

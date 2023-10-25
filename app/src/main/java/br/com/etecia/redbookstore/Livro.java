@@ -1,6 +1,6 @@
 package br.com.etecia.redbookstore;
 
-public class Book {
+public class Livro {
       private int cod;
       private String nome;
       private String genero;
@@ -9,7 +9,7 @@ public class Book {
       private Float preco;
 
 
-    public Book(int cod, String nome, String genero, String desclivro, int rate, Float preco) {
+    public Livro(int cod, String nome, String genero, String desclivro, int rate, Float preco) {
         this.cod = cod;
         this.nome = nome;
         this.genero = genero;
