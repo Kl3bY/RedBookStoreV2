@@ -40,9 +40,22 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Bem vindo a sua lista de desejos!"
-            android:textColor="#252525"
+            android:textColor="#3E3A3A"
             android:fontFamily="@font/dmserifdisplayregular"
             android:textSize="35dp"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
 
 
 
