@@ -50,7 +50,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <EditText
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/TextNomeLivro"
                 android:hint="Nome do Livro"
                 style="@style/ThemeOverlay.Material3.TextInputEditText.OutlinedBox.Dense"
                 android:layout_width="match_parent"
