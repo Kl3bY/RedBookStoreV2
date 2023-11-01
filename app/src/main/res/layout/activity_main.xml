@@ -48,12 +48,12 @@
 
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/TextId"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:visibility="gone">
 
             <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/TextId"
                 style="@style/ThemeOverlay.Material3.TextInputEditText.OutlinedBox.Dense"
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
@@ -64,11 +64,11 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/TextNomeLivro"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
         <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/TextNomeLivro"
                 style="@style/ThemeOverlay.Material3.TextInputEditText.OutlinedBox.Dense"
                 android:layout_width="match_parent"
                 android:inputType="textPersonName"
@@ -87,10 +87,11 @@
             android:entries="@array/generos" />
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/TextDescLivro"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
+
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/TextDescLivro"
                 style="@style/ThemeOverlay.Material3.TextInputEditText.OutlinedBox.Dense"
                 android:layout_width="match_parent"
                 android:layout_height="110dp"
@@ -132,11 +133,11 @@
 
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/TextPrecoLivro"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/TextPrecoLivro"
                 style="@style/ThemeOverlay.Material3.TextInputEditText.OutlinedBox.Dense"
                 android:layout_width="match_parent"
                 android:inputType="numberDecimal"
