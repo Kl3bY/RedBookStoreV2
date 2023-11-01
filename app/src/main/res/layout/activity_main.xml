@@ -40,10 +40,9 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="20dp"
+            android:layout_marginBottom="10dp"
             android:fontFamily="@font/dmserifdisplayregular"
-            android:text="Bem vindo a sua lista de desejos!
-                           crie sua lista de livros."
+            android:text="Bem vindo a sua lista de desejos! crie sua lista de livros."
             android:textColor="#3E3A3A"
             android:textSize="25dp" />
 
@@ -73,7 +72,7 @@
                 style="@style/ThemeOverlay.Material3.TextInputEditText.OutlinedBox.Dense"
                 android:layout_width="match_parent"
                 android:inputType="textPersonName"
-                android:layout_height="45dp"
+                android:layout_height="50dp"
                 android:fontFamily="@font/robotocondensedvariablefontwght"
                 android:hint="Nome do Livro" />
 
@@ -84,7 +83,6 @@
             style="@style/Widget.AppCompat.Spinner.Underlined"
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:layout_marginTop="8dp"
             android:layout_marginBottom="8dp"
             android:entries="@array/generos" />
 
@@ -142,11 +140,34 @@
                 style="@style/ThemeOverlay.Material3.TextInputEditText.OutlinedBox.Dense"
                 android:layout_width="match_parent"
                 android:inputType="numberDecimal"
-                android:layout_height="45dp"
+                android:layout_height="50dp"
                 android:fontFamily="@font/robotocondensedvariablefontwght"
                 android:hint="Preço" />
 
         </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/btnadicionar"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:text="Adicionar"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/robotocondensedvariablefontwght"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/btnverlista"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Ver lista"
+            android:layout_marginTop="20dp"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/robotocondensedvariablefontwght"
+            android:textColor="@color/white"/>
+
 
 
 
