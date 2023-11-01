@@ -92,7 +92,6 @@
             android:id="@+id/TextDescLivro"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
-
             <com.google.android.material.textfield.TextInputEditText
                 style="@style/ThemeOverlay.Material3.TextInputEditText.OutlinedBox.Dense"
                 android:layout_width="match_parent"
@@ -102,10 +101,14 @@
 
         </com.google.android.material.textfield.TextInputLayout>
 
-        <androidx.constraintlayout.widget.ConstraintLayout
+
+
+        <LinearLayout
+            android:padding="10dp"
             android:layout_width="match_parent"
-            android:gravity="center"
-            android:layout_height="60dp">
+            android:layout_height="70dp"
+            android:gravity="center">
+
 
             <TextView
                 android:layout_width="wrap_content"
@@ -113,7 +116,7 @@
                 android:fontFamily="@font/robotocondensedvariablefontwght"
                 android:text="Avalie o livro"
                 android:textColor="#3E3A3A"
-                android:textSize="15dp"
+                android:textSize="15sp"
                 tools:layout_editor_absoluteX="33dp"
                 tools:layout_editor_absoluteY="20dp" />
 
@@ -126,8 +129,9 @@
                 tools:layout_editor_absoluteX="132dp"
                 tools:layout_editor_absoluteY="2dp" />
 
+        </LinearLayout>
 
-        </androidx.constraintlayout.widget.ConstraintLayout>
+
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/TextPrecoLivro"
