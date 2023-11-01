@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">RedBookStore</string>
+    <array name="generos">
+        <item>Drama</item>
+        <item>Ficção Científica</item>
+        <item>Terror</item>
+        <item>Documentario</item>
+        <item>Romance</item>
+        <item>Comedia</item>
+        <item>Aventura</item>
+        <item>Suspense</item>
+    </array>
 </resources>
