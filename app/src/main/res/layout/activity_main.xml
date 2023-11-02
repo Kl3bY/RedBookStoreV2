@@ -115,18 +115,14 @@
                 android:fontFamily="@font/robotocondensedvariablefontwght"
                 android:text="Avalie o livro"
                 android:textColor="#3E3A3A"
-                android:textSize="15sp"
-                tools:layout_editor_absoluteX="33dp"
-                tools:layout_editor_absoluteY="20dp" />
+                android:textSize="15sp"/>
 
             <RatingBar
                 android:id="@+id/ratingBar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:numStars="5"
-                android:stepSize="1"
-                tools:layout_editor_absoluteX="132dp"
-                tools:layout_editor_absoluteY="2dp" />
+                android:stepSize="1" />
 
         </LinearLayout>
 

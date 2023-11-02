@@ -18,6 +18,7 @@
             android:src="@drawable/livro" />
 
         <TextView
+            android:id="@+id/txtViewNome"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/dmserifdisplayregular"
@@ -37,6 +38,8 @@
                 android:textSize="11sp" />
 
             <TextView
+
+                android:id="@+id/txtViewGenero"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -53,6 +56,7 @@
                 android:textSize="11sp" />
 
             <TextView
+
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -61,6 +65,7 @@
                 android:textSize="11sp" />
 
             <TextView
+                android:id="@+id/txtViewPreco"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="2dp"
@@ -70,6 +75,14 @@
 
 
         </LinearLayout>
+
+        <RatingBar
+            android:id="@+id/RatingView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?android:attr/ratingBarStyleSmall"
+            android:stepSize="1"/>
+
 
     </LinearLayout>
 
